@@ -14,6 +14,4 @@ tags:
 <!--more-->
 
 
-excerpt_separator: "<!--more-->"
-```
 
