@@ -71,9 +71,11 @@ author:
     # - label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
      # url: "https://instagram.com/"
-  - label: "Hack The Box"
-    icon: '<img src="https://cdn.simpleicons.org/hackthebox/9FEF00" width="25" height="25" alt="Hack The Box">'
-    url: "https://app.hackthebox.com/profile/2442977"
+     social:
+  - title: "Hack The Box"
+    href: "https://app.hackthebox.com/profile/2442977"
+    icon: "<img src='https://cdn.simpleicons.org/hackthebox/9FEF00' width='25' height='25' alt='Hack The Box'>"
+
 
 
 
