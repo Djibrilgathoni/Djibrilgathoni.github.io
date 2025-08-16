@@ -2,7 +2,7 @@ Djibril Gathoni's Cybersecurity Portfolio
 
 About Me
 
-Hello! I'm Djibril Gathoni, graduating in October 2025 with a Bachelor of Business Information Technology from South Eastern Kenya University. As a Certified Ethical Hacker (CEH), I specialize in network protocols, system architecture, and threat landscapes, with hands-on experience in vulnerability assessments and penetration testing using tools like Wireshark, Nmap, Burp Suite, and Kali Linux. My internship at Kenya Tea Packers Limited (KETEPA) honed my IT support and cybersecurity skills, while my leadership roles as Vice Chair and Secretary of the Christian Union and USIU-Africa Cybersecurity cybershujaa strengthened my ability to lead, organize, and communicate effectively. Passionate about delivering innovative security solutions, I’m eager to contribute to Capua’s UK team, with flexibility to relocate or work remotely.
+Hello! I'm Djibril Gathoni, graduating in October 2025 with a Bachelor's degree in Business Information Technology from South Eastern Kenya University. As a Certified Ethical Hacker (CEH), I specialize in network protocols, system architecture, and threat landscapes, with hands-on experience in vulnerability assessments and penetration testing using tools like Wireshark, Nmap, Burp Suite, and Kali Linux. My internship at Kenya Tea Packers Limited (KETEPA) honed my IT support and cybersecurity skills, while my leadership roles as Vice Chair and Secretary of the Christian Union and USIU-Africa Cybersecurity cybershujaa strengthened my ability to lead, organize, and communicate effectively. Passionate about delivering innovative security solutions, I’m eager to contribute to Capua’s UK team, with flexibility to relocate or work remotely.
 
 Skills
 Technical Skills
@@ -38,13 +38,13 @@ Education
 
 Bachelor of Business Information TechnologySouth Eastern Kenya University, Kitui, KenyaSeptember 2021 - October 2025 (Graduation Pending)
 
-Cisco Ethical Hacking CertificationUSIU-Africa, Online May 2025 - August 2025
+Cisco Ethical Hacking Certification USIU-Africa, Online May 2025 - August 2025
 
 Certifications
 Certified Ethical Hacker (CEH) – August 2025
 
 Leadership & Extracurricular Activities
-Vice Chair & Secretary, Christian Union (South Eastern Kenya University)January 2023 - Present  
+Vice Chair & Secretary, Christian Union (South Eastern Kenya University) 2023 - 2024 
 
 Assisted in leading the Christian Union, coordinating events and workshops to promote member engagement, enhancing organizational and leadership skills transferable to cybersecurity project management.  
 Managed records, communicated with external speakers, and maintained member databases, ensuring efficient operations and stakeholder engagement, skills applicable to cybersecurity documentation.
