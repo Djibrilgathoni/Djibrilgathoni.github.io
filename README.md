@@ -23,14 +23,14 @@ Proactive learner with a passion for advancing in cybersecurity
 Featured Projects
 Cybersecurity CTF Challenge (Hack The Box)
 
-Description: Completed the "Fawn" machine, using Nmap and FTP to enumerate vulnerabilities and capture flags in a simulated environment, demonstrating persistence and analytical skills.
+Completed the "Fawn" machine, using Nmap and FTP to enumerate vulnerabilities and capture flags in a simulated environment, demonstrating persistence and analytical skills.
 Tools Used: Nmap, Wireshark, FTP, Kali Linux
 Achievements: Analyzed network traffic to identify exploits and documented findings in a LinkedIn article, fostering engagement with the cybersecurity community.
 Repository: 
 
 KETEPA Internship Cybersecurity Contributions
 
-Description: Supported IT infrastructure security during a 2024 internship at Kenya Tea Packers Limited, conducting vulnerability scans and enhancing system access controls.
+Supported IT infrastructure security during a 2024 internship at Kenya Tea Packers Limited, conducting vulnerability scans and enhancing system access controls.
 Tools Used: Nmap, Wireshark, Active Directory, SIEM platforms
 Achievements: Identified security gaps in network systems and improved threat detection processes, reducing potential risks for critical inventory and supply chain operations.
 
