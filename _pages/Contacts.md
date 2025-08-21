@@ -3,8 +3,7 @@ layout: single
 title: "Contact"
 permalink: /contact/
 ---
-
-# Contact  
+ 
 
  Phone: +254714086144  
 
