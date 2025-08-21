@@ -2,6 +2,7 @@
 layout: single
 title: "Projects"
 permalink: /projects/
+author_profile: false
 ---
   
 Here are some of the cybersecurity projects and activities I’ve worked on:
