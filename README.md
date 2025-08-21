@@ -40,8 +40,11 @@ Achievements: Analyzed network traffic to identify exploits and documented findi
 KETEPA Internship Cybersecurity Contributions
 
 •	IT Support and Troubleshooting: Provided first-line technical assistance to staff across departments, resolving hardware and software issues, such as printer malfunctions, network connectivity problems, and software glitches. This ensured smooth workflow in production and administrative areas, reducing downtime by promptly addressing user queries via helpdesk tickets.
+
 •	System Administration and Maintenance: Assisted in managing the company's IT infrastructure, including user account creation, software installations, and routine system updates. Participated in maintaining servers and databases used for inventory tracking and supply chain management, which are critical for KETEPA's tea processing operations.
+
 •	Process Optimization and Data Management: Contributed to data entry and analysis tasks, helping optimize resource allocation in packaging and distribution. 
+
 •	Project Collaboration and Learning: Worked collaboratively with the IT team on ongoing projects, including network upgrades and ERP system enhancements tailored to the tea industry's needs. Gained exposure to real-world applications of IT in business, enhancing my analytical and problem-solving skills while adapting to corporate culture.
 
 
@@ -65,7 +68,7 @@ Contact
 
 Email: ndungudjibril@gmail.com  
 LinkedIn:https://www.linkedin.com/in/djibrilgathoni/
-Location: Mombasa, Kenya (Flexible to relocate to the UK or work remotely)
+Location: Mombasa, Kenya 
 
 
 Thank you for visiting my portfolio! I’m excited to connect with innovative teams like Capua’s to contribute to cybersecurity excellence. Feel free to reach out to discuss potential opportunities.
