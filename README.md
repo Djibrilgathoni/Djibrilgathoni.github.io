@@ -51,7 +51,7 @@ Managed records, communicated with external speakers, and maintained member data
 Contact
 
 Email: ndungudjibril@gmail.com  
-LinkedIn: www.linkedin.com/in/djibrilgathoni  
+LinkedIn:https://www.linkedin.com/in/djibrilgathoni/
 Location: Mombasa, Kenya (Flexible to relocate to the UK or work remotely)
 
 
