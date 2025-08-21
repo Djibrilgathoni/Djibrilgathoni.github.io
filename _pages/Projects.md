@@ -8,7 +8,7 @@ Here are some of the cybersecurity projects and activities I’ve worked on:
 
 ---
 
-## 🔹 Web Pentest Lab  
+##  Web Pentest Lab  
 [Completion Certificate](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf)  
 
 - Built and tested a vulnerable web application in a controlled environment.  
@@ -17,7 +17,7 @@ Here are some of the cybersecurity projects and activities I’ve worked on:
 
 ---
 
-## 🔹 Capture the Flag (CTF) Challenges  
+## Capture the Flag (CTF) Challenges  
 [HackTheBox Profile](https://app.hackthebox.com/profile/activity)  
 
 - Participated in Tier 0 and Tier 1 challenges.  
@@ -26,14 +26,14 @@ Here are some of the cybersecurity projects and activities I’ve worked on:
 
 ---
 
-## 🔹 TryHackMe Labs  
+##  TryHackMe Labs  
 - Completed beginner and intermediate cybersecurity labs.  
 - Learned **network analysis, privilege escalation, and enumeration techniques**.  
 - Built a habit of documenting attacks and findings clearly.  
 
 ---
 
-## 🔹 GitHub Portfolio  
+##  GitHub Portfolio  
 [My GitHub Repositories](https://github.com/Djibrilgathoni)  
 
 - Sharing code snippets, security scripts, and personal projects.  
