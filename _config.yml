@@ -73,6 +73,11 @@ author:
      # url: "https://instagram.com/"
   
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      nav_exclude: false
 
 
 
