@@ -2,6 +2,7 @@
 layout: single
 title: "resume"
 permalink: /resume/
+author_profile: false
 ---
 
 Here’s a snapshot of my skills, experience, and certifications.  
