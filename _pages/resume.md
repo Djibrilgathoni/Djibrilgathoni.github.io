@@ -20,7 +20,7 @@ You can also [📄 download my full resume (PDF)](/assets/DJIBRIL_GATHONI_CV.pdf
 
 ---
 
-## 🔹 Projects & Practical Experience  
+##  Projects & Practical Experience  
 
 **Vulnerability Assessments**  
 - Conducted security scans and penetration tests in lab environments.  
@@ -58,12 +58,12 @@ You can also [📄 download my full resume (PDF)](/assets/DJIBRIL_GATHONI_CV.pdf
 
 ---
 
-## 🔹 Certifications  
+##  Certifications  
 - Cisco Ethical Hacker  
 
 ---
 
-## 🔹 Education  
+## Education  
 - **BBIT – Bachelor of Business Information Technology**  
   *SEKU University*  
 
