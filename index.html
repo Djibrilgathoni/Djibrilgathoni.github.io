@@ -5,13 +5,7 @@
 layout: single
 author_profile: true
 ---
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: single
-author_profile: true
----
+
 </head>
 <body>
 
@@ -74,75 +68,125 @@ author_profile: true
 
   <!-- 🔹 CSS Styling -->
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9fafb;
-      color: #111827;
-    }
+    /* 🌌 Global Styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #e6e6e6;
+}
 
-    nav {
-      background: #1e3a8a;
-      padding: 10px 0;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
+/* 🔹 Navigation */
+nav {
+  background: #111827;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 12px rgba(0, 255, 204, 0.4);
+}
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-    }
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
 
-    nav li {
-      margin: 0 15px;
-    }
+nav li {
+  margin: 0 20px;
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
+nav a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
 
-    nav a:hover {
-      color: #93c5fd;
-    }
+nav a:hover {
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+}
 
-    header {
-      background: #1e40af;
-      color: white;
-      text-align: center;
-      padding: 2rem;
-    }
+/* 🔹 Header */
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: rgba(17, 24, 39, 0.9);
+  color: #00ffcc;
+  text-shadow: 0 0 15px #00ffcc;
+  border-bottom: 2px solid #00ffcc;
+  box-shadow: 0 0 25px rgba(0, 255, 204, 0.3);
+}
 
-    section {
-      background: white;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 12px;
-      max-width: 800px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+/* 🔹 Sections */
+section {
+  background: rgba(22, 27, 34, 0.9); /* dark transparent card */
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 900px;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
+  transition: transform 0.3s ease;
+}
 
-    .resume-button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #2563eb;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-    }
+section:hover {
+  transform: translateY(-5px); /* floating card effect */
+  box-shadow: 0 0 25px rgba(255, 0, 255, 0.4);
+}
 
-    .resume-button:hover {
-      background-color: #1e40af;
-    }
+/* 🔹 Headings */
+h2 {
+  color: #00ffcc;
+  text-shadow: 0 0 8px #00ffcc;
+  border-left: 4px solid #ff00ff;
+  padding-left: 10px;
+}
+
+/* 🔹 Text */
+p, li {
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+a {
+  color: #00ffcc;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: #ff00ff;
+  text-shadow: 0 0 8px #ff00ff;
+}
+
+/* 🔹 Resume Button */
+.resume-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #00ffcc;
+  color: #0d1117;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px #00ffcc;
+}
+
+.resume-button:hover {
+  background-color: #ff00ff;
+  color: #fff;
+  box-shadow: 0 0 20px #ff00ff;
+}
+
+/* 🔹 Contact Links */
+#contact a {
+  display: inline-block;
+  margin: 5px 0;
+}
+
   </style>
 
    
