@@ -5,83 +5,144 @@
 layout: single
 author_profile: true
 ---
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: single
+author_profile: true
+---
 </head>
 <body>
 
+  <!-- 🔹 Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <header>
     <h1>Welcome to My Portfolio</h1>
-    <p>Junior Cybersecurity Analyst | CEH | IT Support & Systems Security | </p>
+    <p>Junior Cybersecurity Analyst | CEH | IT Support & Systems Security</p>
   </header>
  
   <main>
-
-    <section>
-      <h2>Professional Summary </h2>
+    <!-- 🔹 Summary Section -->
+    <section id="summary">
+      <h2>Professional Summary</h2>
       <p>I’m a cybersecurity enthusiast with a strong interest in ethical hacking and securing systems against modern threats. I explore systems not to break them—but to make them stronger. With hands-on practice from platforms like TryHackMe and Hack The Box, I'm constantly learning and improving in real-world environments.</p>
     </section>
 
-    <section>
+    <!-- 🔹 Resume Section -->
+    <section id="resume">
       <h2>Resume</h2>
       <p>Here's a snapshot of my cybersecurity journey and key competencies:</p>
       <ul>
         <li><strong>Skills:</strong> Penetration Testing, Nmap, Burp Suite, Linux, Web Application Security, Python, Bash</li>
-        <li><strong>Tools:</strong> Wireshark, Metasploit.</li>
+        <li><strong>Tools:</strong> Wireshark, Metasploit</li>
         <li><strong>Experience:</strong> Vulnerability assessment on live environments, CTF participation</li>
-        <li><strong>Certifications:</strong> Cisco Ethical Hacker</li>
-     </ul>
-<a href="assets/DJIBRIL_GATHONI_CV.pdf" class="resume-button" target="_blank">Download My Resume (PDF)</a>
-</section>
+        <li><strong>Certifications:</strong> Certified Ethical Hacker (CEH)</li>
+      </ul>
+      <a href="assets/DJIBRIL_GATHONI_CV.pdf" class="resume-button" target="_blank">Download My Resume (PDF)</a>
+    </section>
 
-<style>
-  .resume-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #2563eb; /* nice blue */
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
+    <!-- 🔹 Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf" target="_blank"><b>Web Pentest Lab</b></a> – Simulated attacks on a vulnerable web application; discovered and reported multiple flaws.
+        </li>
+        <li>
+          <a href="https://app.hackthebox.com/profile/activity" target="_blank"><b>Capture the Flag (CTF) Challenges</b></a> – Participated in Tier 0 and Tier 1 challenges; strengthened skills in reconnaissance, exploitation, and post-exploitation techniques.
+        </li>
+      </ul>
+    </section>
 
-  .resume-button:hover {
-    background-color: #1e40af; /* darker blue on hover */
-  }
-</style>
+    <!-- 🔹 Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ndungudjibril@gmail.com">ndungudjibril@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/djibrilgathoni/" target="_blank">linkedin.com/in/djibrilgathoni</a></p>
+      <p>GitHub: <a href="https://github.com/Djibrilgathoni" target="_blank">github.com/Djibrilgathoni</a></p>
+    </section>
+  </main>
 
+  <!-- 🔹 CSS Styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #111827;
+    }
 
-    <section id="summary">
-  <h2>Professional Summary </h2>
-  ...
-</section>
+    nav {
+      background: #1e3a8a;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
 
-<section id="resume">
-  <h2>Resume</h2>
-  ...
-</section>
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
 
-<section id="projects">
-  <h2>Projects</h2>
-  ...
-</section>
+    nav li {
+      margin: 0 15px;
+    }
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:ndungudjibril@gmail.com">djibril@example.com</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/djibrilgathoni/" target="_blank">linkedin.com/in/your-profile</a></p>
-  <p>GitHub: <a href="https://github.com/Djibrilgathoni" target="_blank">github.com/your-username</a></p>
-</section>
-    
-    <section>
-  <h2>Projects</h2>
-<ul>
-  <li>
-    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf"><b>Web Pentest Lab</b></a> – Simulated attacks on a vulnerable web application; discovered and reported multiple flaws.
-  </li>
-  <li>
-    <a href="https://app.hackthebox.com/profile/activity" target="_blank"><b>Capture the Flag (CTF) Challenges</b></a> – Participated in Tier 0 and Tier 1 challenges; strengthened skills in reconnaissance, exploitation, and post-exploitation techniques.
-  </li>
-</ul>
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
 
- </section>
+    nav a:hover {
+      color: #93c5fd;
+    }
+
+    header {
+      background: #1e40af;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    section {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 800px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .resume-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .resume-button:hover {
+      background-color: #1e40af;
+    }
+  </style>
+
    
