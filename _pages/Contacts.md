@@ -1,9 +1,13 @@
 ---
-title: Contact
-permalink: /404.html
+layout: single
+title: "Contact"
+permalink: /contact/
 ---
 
-Phone Number +254714086144
+# Contact  
 
+ Phone: +254714086144  
 
-Email ndungudjibril@gmail.com
+ 
+ Email: [ndungudjibril@gmail.com](mailto:ndungudjibril@gmail.com)  
+
