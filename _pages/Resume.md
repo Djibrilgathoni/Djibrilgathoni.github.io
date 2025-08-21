@@ -4,8 +4,6 @@ title: "Resume"
 permalink: /resume/
 ---
 
-# Resume  
-
 Here’s a snapshot of my skills, experience, and certifications.  
 You can also [📄 download my full resume (PDF)](/assets/DJIBRIL_GATHONI_CV.pdf).  
 
