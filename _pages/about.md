@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+author_profile: false
 ---
 
 I'm a passionate cybersecurity analyst with a deep interest in ethical hacking, penetration testing, and digital defense. I thrive on uncovering vulnerabilities before malicious actors can exploit them, and I'm committed to using my skills to strengthen the security posture of systems and networks.
