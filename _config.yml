@@ -56,8 +56,8 @@ plugins:
 
 author:
   name   : Djibril Gathoni
-  avatar : "assets/images/WIN_20250807_13_23_03_Pro.jpg"
-  bio    : Passionate about cybersecurity, with strong skills in penetration testing, network security, and stakeholder engagement. Ready to contribute to innovative tech ecosystems.
+  avatar : "assets/images/Professional Portrait of a Confident Woman.png"
+  bio    : Cybersecurity enthusiast with hands-on experience in penetration testing, CTFs, and vulnerability assessments. Constantly learning, hacking, and securing.
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
