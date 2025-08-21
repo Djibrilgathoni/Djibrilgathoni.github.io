@@ -35,13 +35,15 @@ Tools Used: Nmap, Wireshark, FTP, Kali Linux
 
 Achievements: Analyzed network traffic to identify exploits and documented findings in a LinkedIn article, fostering engagement with the cybersecurity community.
 
-Repository: 
+
 
 KETEPA Internship Cybersecurity Contributions
 
-Supported IT infrastructure security during a 2024 internship at Kenya Tea Packers Limited, conducting vulnerability scans and enhancing system access controls.
-Tools Used: Nmap, Wireshark, Active Directory, SIEM platforms
-Achievements: Identified security gaps in network systems and improved threat detection processes, reducing potential risks for critical inventory and supply chain operations.
+•	IT Support and Troubleshooting: Provided first-line technical assistance to staff across departments, resolving hardware and software issues, such as printer malfunctions, network connectivity problems, and software glitches. This ensured smooth workflow in production and administrative areas, reducing downtime by promptly addressing user queries via helpdesk tickets.
+•	System Administration and Maintenance: Assisted in managing the company's IT infrastructure, including user account creation, software installations, and routine system updates. Participated in maintaining servers and databases used for inventory tracking and supply chain management, which are critical for KETEPA's tea processing operations.
+•	Process Optimization and Data Management: Contributed to data entry and analysis tasks, helping optimize resource allocation in packaging and distribution. 
+•	Project Collaboration and Learning: Worked collaboratively with the IT team on ongoing projects, including network upgrades and ERP system enhancements tailored to the tea industry's needs. Gained exposure to real-world applications of IT in business, enhancing my analytical and problem-solving skills while adapting to corporate culture.
+
 
 Education
 
