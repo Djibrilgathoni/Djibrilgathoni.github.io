@@ -15,6 +15,7 @@ Cybersecurity Practices: Vulnerability assessments, penetration testing, threat 
 
 Other IT Skills: IT support, helpdesk operations, system administration, process automation
 
+
 Soft Skills
 
 Exceptional analytical and problem-solving skills for identifying and mitigating cyber threats
@@ -25,12 +26,15 @@ Collaborative and adaptable in hybrid and remote work environments
 
 Proactive learner with a passion for advancing in cybersecurity
 
+
 Featured Projects
 Cybersecurity CTF Challenge (Hack The Box)
-
 Completed the "Fawn" machine, using Nmap and FTP to enumerate vulnerabilities and capture flags in a simulated environment, demonstrating persistence and analytical skills.
+
 Tools Used: Nmap, Wireshark, FTP, Kali Linux
+
 Achievements: Analyzed network traffic to identify exploits and documented findings in a LinkedIn article, fostering engagement with the cybersecurity community.
+
 Repository: 
 
 KETEPA Internship Cybersecurity Contributions
