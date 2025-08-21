@@ -6,16 +6,23 @@ Skills
 Technical Skills
 
 Network Protocols: TCP/IP, DNS, DHCP, routing protocols
+
 System Architecture: Windows 10/11, Debian-based Linux, VMware, Active Directory
+
 Cybersecurity Tools: Wireshark, Nmap, Burp Suite, Nessus (basic proficiency), SIEM platforms, Kali Linux
+
 Cybersecurity Practices: Vulnerability assessments, penetration testing, threat landscape analysis
+
 Other IT Skills: IT support, helpdesk operations, system administration, process automation
 
 Soft Skills
 
 Exceptional analytical and problem-solving skills for identifying and mitigating cyber threats
+
 Strong communication skills, adept at conveying technical and non-technical concepts to diverse audiences
+
 Collaborative and adaptable in hybrid and remote work environments
+
 Proactive learner with a passion for advancing in cybersecurity
 
 Featured Projects
