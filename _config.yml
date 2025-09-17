@@ -72,19 +72,8 @@ author:
     #  icon: "fab fa-fw fa-instagram"
      # url: "https://instagram.com/"
   
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      nav_exclude: false
-
-
-
-     
-
 footer:
-copyright: "© 2025 Djibril Gathoni. All Rights Reserved."
+  copyright: "© 2025 Djibril Gathoni. All Rights Reserved."
   links:
   #  - label: "Twitter"
    #   icon: "fab fa-fw fa-twitter-square"
