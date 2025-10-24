@@ -72,4 +72,4 @@ LinkedIn:https://www.linkedin.com/in/djibrilgathoni/
 Location: Mombasa, Kenya 
 
 
-Thank you for visiting my portfolio! I’m excited to connect with innovative teams like Capua’s to contribute to cybersecurity excellence. Feel free to reach out to discuss potential opportunities.
+Thank you for visiting my portfolio! I’m excited to connect with innovative teams to contribute to cybersecurity excellence. Feel free to reach out to discuss potential opportunities.
