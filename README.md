@@ -1,21 +1,21 @@
-Djibril Gathoni's Portfolio
+# Djibril Gathoni's Portfolio
 
-Junior IT & Cybersecurity Professional | CEH Certified | IT Support, Systems Administration & Network Security
+**Junior IT & Cybersecurity Professional | CEH Certified | IT Support, Systems Administration & Network Security**
 
-Professional Summary
+### Professional Summary
 Recent BBIT graduate (October 2025) and Certified Ethical Hacker (CEH) with practical experience delivering reliable IT support to 50+ users during a 4-month attachment at Kenya Tea Packers Ltd (KETEPA).  
 Achieved a 92% first-contact resolution rate and sustained 99.9% network uptime by managing Active Directory for 200+ accounts, patching 100+ endpoints, and minimizing security vulnerabilities.  
 Hands-on skills include completing 10+ Hack The Box machines, running Nessus vulnerability scans, and analyzing network traffic with Wireshark in Cyber Shujaa labs.  
 Passionate about blending IT operations, networking, system administration, and cybersecurity to drive efficiency, reliability, and security across critical systems.
 
-Technical Skills
-Networking & Protocols  
+### Technical Skills
+**Networking & Protocols**  
 TCP/IP, DNS/DHCP configuration, subnetting, VLANs, routing fundamentals, switch/Wi-Fi troubleshooting, basic firewall rules  
 
-System Administration 
+**System Administration**  
 Windows 10/11 & Server, Linux (Debian/Kali), Active Directory (user/GPO/OU management), endpoint management  
 
-Cybersecurity Tools & Practices  
+**Cybersecurity Tools & Practices**  
 Nmap, Wireshark, Nessus, Burp Suite, Metasploit, Hack The Box CTFs, vulnerability scanning, penetration testing basics, network traffic analysis  
 
 **IT Support & Operations**  
@@ -49,6 +49,7 @@ South Eastern Kenya University, Kitui, Kenya
 September 2021 – October 2025 (Graduated)
 
 ### Certifications
+- Certified Ethical Hacker (CEH) – August 2025  
 - Cisco Ethical Hacking Certification – Cyber Shujaa Program, USIU-Africa (May – August 2025)
 
 ### Leadership & Extracurricular Activities
@@ -64,6 +65,4 @@ South Eastern Kenya University
 - **LinkedIn:** [linkedin.com/in/djibrilgathoni](https://www.linkedin.com/in/djibrilgathoni/)  
 - **Portfolio:** [djibrilgathoni.github.io](https://djibrilgathoni.github.io/)
 
-Thank you for visiting my portfolio!
-I'm excited to bring my technical skills and proactive mindset to an innovative IT or cybersecurity team. Feel free to reach out for opportunities in IT support, system administration, networking, or cybersecurity!
-
+I'm excited to bring my technical skills and proactive mindset to an innovative IT or cybersecurity team. Feel free to reach out for opportunities in IT support, system administration, networking, or cybersecurity
