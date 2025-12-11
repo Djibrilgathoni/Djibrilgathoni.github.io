@@ -1,75 +1,69 @@
-Djibril Gathoni's Cybersecurity Portfolio
+Djibril Gathoni's Portfolio
 
-Hello! I'm Djibril Gathoni, graduating in October 2025 with a Bachelor's degree in Business Information Technology from South Eastern Kenya University. As a Certified Ethical Hacker (CEH), I specialize in network protocols, system architecture, and threat landscapes, with hands-on experience in vulnerability assessments and penetration testing using tools like Wireshark, Nmap, Burp Suite, and Kali Linux. My internship at Kenya Tea Packers Limited (KETEPA) honed my IT support and cybersecurity skills, while my leadership roles as Vice Chair and Secretary of the Christian Union and USIU-Africa Cybersecurity cybershujaa strengthened my ability to lead, organize, and communicate effectively. Passionate about delivering innovative security solutions.
+Junior IT & Cybersecurity Professional | CEH Certified | IT Support, Systems Administration & Network Security
 
+Professional Summary
+Recent BBIT graduate (October 2025) and Certified Ethical Hacker (CEH) with practical experience delivering reliable IT support to 50+ users during a 4-month attachment at Kenya Tea Packers Ltd (KETEPA).  
+Achieved a 92% first-contact resolution rate and sustained 99.9% network uptime by managing Active Directory for 200+ accounts, patching 100+ endpoints, and minimizing security vulnerabilities.  
+Hands-on skills include completing 10+ Hack The Box machines, running Nessus vulnerability scans, and analyzing network traffic with Wireshark in Cyber Shujaa labs.  
+Passionate about blending IT operations, networking, system administration, and cybersecurity to drive efficiency, reliability, and security across critical systems.
 
-Skills
 Technical Skills
+Networking & Protocols  
+TCP/IP, DNS/DHCP configuration, subnetting, VLANs, routing fundamentals, switch/Wi-Fi troubleshooting, basic firewall rules  
 
-Network Protocols: TCP/IP, DNS, DHCP, routing protocols
+System Administration 
+Windows 10/11 & Server, Linux (Debian/Kali), Active Directory (user/GPO/OU management), endpoint management  
 
-System Architecture: Windows 10/11, Debian-based Linux, VMware, Active Directory
+Cybersecurity Tools & Practices  
+Nmap, Wireshark, Nessus, Burp Suite, Metasploit, Hack The Box CTFs, vulnerability scanning, penetration testing basics, network traffic analysis  
 
-Cybersecurity Tools: Wireshark, Nmap, Burp Suite, Nessus (basic proficiency), SIEM platforms, Kali Linux
+**IT Support & Operations**  
+Helpdesk/ticketing systems, hardware/software troubleshooting, system maintenance, backups, patches, ERP/application support  
 
-Cybersecurity Practices: Vulnerability assessments, penetration testing, threat landscape analysis
+### Featured Projects & Labs
+- **Hack The Box CTF Challenges**  
+  Completed 10+ machines (including Fawn via FTP enumeration and privilege escalation). Captured flags and documented methodologies on LinkedIn.  
+  Tools: Nmap, Wireshark, FTP, Kali Linux  
 
-Other IT Skills: IT support, helpdesk operations, system administration, process automation
+- **Cyber Shujaa Labs (USIU-Africa)**  
+  Performed network traffic analysis with Wireshark, conducted Nessus vulnerability scans (identified 50+ vulnerabilities in simulated environments), and practiced Active Directory attack & defense techniques.  
 
+- **Web Application Penetration Testing Lab (Forage)**  
+  Simulated attacks on vulnerable web applications, discovered and reported multiple security flaws.  
+  [Certificate](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf)
 
-Soft Skills
+### Professional Experience
+**IT Intern**  
+Kenya Tea Packers Ltd (KETEPA), Kericho  
+May – August 2024  
+- Delivered end-to-end IT support to 50+ users, resolving hardware, software, network, and account issues with a 92% first-contact resolution rate (average closure within 4 hours).  
+- Managed Active Directory for 200+ users: onboarding/offboarding, group policies, access controls, and password resets.  
+- Maintained corporate LAN, Wi-Fi, switches, and IP configurations, achieving 99.9% network uptime.  
+- Executed patch management and endpoint protection scans on 100+ devices, ensuring 100% compliance with security policies.  
+- Supported ERP and database monitoring, preventing operational disruptions.
 
-Exceptional analytical and problem-solving skills for identifying and mitigating cyber threats
+### Education
+Bachelor of Business Information Technology (BBIT)  
+South Eastern Kenya University, Kitui, Kenya  
+September 2021 – October 2025 (Graduated)
 
-Strong communication skills, adept at conveying technical and non-technical concepts to diverse audiences
+### Certifications
+- Cisco Ethical Hacking Certification – Cyber Shujaa Program, USIU-Africa (May – August 2025)
 
-Collaborative and adaptable in hybrid and remote work environments
+### Leadership & Extracurricular Activities
+**Vice Chair & Secretary, Christian Union**  
+South Eastern Kenya University  
+2023 – 2024  
+- Coordinated events, workshops, and member engagement initiatives for 100+ students.  
+- Managed records, communicated with external stakeholders, and maintained databases—skills transferable to cybersecurity documentation and project coordination.
 
-Proactive learner with a passion for advancing in cybersecurity
+### Contact
+- **Email:** ndungudjibril@gmail.com  
+- **Phone:** +254 714 086 144  
+- **LinkedIn:** [linkedin.com/in/djibrilgathoni](https://www.linkedin.com/in/djibrilgathoni/)  
+- **Portfolio:** [djibrilgathoni.github.io](https://djibrilgathoni.github.io/)
 
+Thank you for visiting my portfolio!
+I'm excited to bring my technical skills and proactive mindset to an innovative IT or cybersecurity team. Feel free to reach out for opportunities in IT support, system administration, networking, or cybersecurity!
 
-Featured Projects
-Cybersecurity CTF Challenge (Hack The Box)
-Completed the "Fawn" machine, using Nmap and FTP to enumerate vulnerabilities and capture flags in a simulated environment, demonstrating persistence and analytical skills.
-
-Tools Used: Nmap, Wireshark, FTP, Kali Linux
-
-Achievements: Analyzed network traffic to identify exploits and documented findings in a LinkedIn article, fostering engagement with the cybersecurity community.
-
-
-
-KETEPA Internship Cybersecurity Contributions
-
-•	IT Support and Troubleshooting: Provided first-line technical assistance to staff across departments, resolving hardware and software issues, such as printer malfunctions, network connectivity problems, and software glitches. This ensured smooth workflow in production and administrative areas, reducing downtime by promptly addressing user queries via helpdesk tickets.
-
-•	System Administration and Maintenance: Assisted in managing the company's IT infrastructure, including user account creation, software installations, and routine system updates. Participated in maintaining servers and databases used for inventory tracking and supply chain management, which are critical for KETEPA's tea processing operations.
-
-•	Process Optimization and Data Management: Contributed to data entry and analysis tasks, helping optimize resource allocation in packaging and distribution. 
-
-•	Project Collaboration and Learning: Worked collaboratively with the IT team on ongoing projects, including network upgrades and ERP system enhancements tailored to the tea industry's needs. Gained exposure to real-world applications of IT in business, enhancing my analytical and problem-solving skills while adapting to corporate culture.
-
-
-Education
-
-Bachelor of Business Information TechnologySouth Eastern Kenya University, Kitui, KenyaSeptember 2021 - October 2025 (Graduation Pending)
-
-Cisco Ethical Hacking Certification USIU-Africa, Online May 2025 - August 2025
-
-Certifications
-Certified Ethical Hacker (CEH) – August 2025
-
-Leadership & Extracurricular Activities
-Vice Chair & Secretary, Christian Union (South Eastern Kenya University) 2023 - 2024 
-
-Assisted in leading the Christian Union, coordinating events and workshops to promote member engagement, enhancing organizational and leadership skills transferable to cybersecurity project management.  
-Managed records, communicated with external speakers, and maintained member databases, ensuring efficient operations and stakeholder engagement, skills applicable to cybersecurity documentation.
-
-
-Contact
-
-Email: ndungudjibril@gmail.com  
-LinkedIn:https://www.linkedin.com/in/djibrilgathoni/
-Location: Mombasa, Kenya 
-
-
-Thank you for visiting my portfolio! I’m excited to connect with innovative teams to contribute to cybersecurity excellence. Feel free to reach out to discuss potential opportunities.
