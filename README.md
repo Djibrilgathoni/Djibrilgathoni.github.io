@@ -44,8 +44,8 @@ May – August 2024
 - Supported ERP and database monitoring, preventing operational disruptions.
 
 ### Education
+South Eastern Kenya University, Kitui, Kenya 
 Bachelor of Business Information Technology (BBIT)  
-South Eastern Kenya University, Kitui, Kenya  
 September 2021 – October 2025 (Graduated)
 
 ### Certifications
