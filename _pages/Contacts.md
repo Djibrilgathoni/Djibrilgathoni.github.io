@@ -11,3 +11,8 @@ author_profile: false
  
  Email: [ndungudjibril@gmail.com](mailto:ndungudjibril@gmail.com)  
 
+
+ linkedin:  https://www.linkedin.com/in/djibrilgathoni/ 
+ 
+ 
+
