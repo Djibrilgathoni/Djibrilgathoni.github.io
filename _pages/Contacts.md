@@ -12,7 +12,7 @@ author_profile: false
  Email: [ndungudjibril@gmail.com](mailto:ndungudjibril@gmail.com)  
 
 
- linkedin [Djibril Gathoni] (https://www.linkedin.com/in/djibrilgathoni/)
+ linkedin [Djibril Gathoni](https://www.linkedin.com/in/djibrilgathoni/)
  
  
  
