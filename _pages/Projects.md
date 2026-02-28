@@ -24,11 +24,7 @@ Here are some of the cybersecurity projects and activities I’ve worked on:
 - Participated in Tier 0 and Tier 1 challenges.  
 - Gained hands-on experience in reconnaissance, exploitation, and post-exploitation.  
 - Improved skills in Linux privilege escalation and web exploitation.
-- Some flags captured include:
-  
-  -(https://www.hackthebox.com/achievement/machine/2442977/393)
-   
-  -(https://www.hackthebox.com/achievement/machine/2442977/403)
+
   
 
 ---
