@@ -26,9 +26,9 @@ Here are some of the cybersecurity projects and activities I’ve worked on:
 - Improved skills in Linux privilege escalation and web exploitation.
 - Some flags captured include:
   
-  -(https://labs.hackthebox.com/achievement/machine/2442977/393)
+  -(https://www.hackthebox.com/achievement/machine/2442977/393)
    
-  -(https://labs.hackthebox.com/achievement/machine/2442977/403)
+  -(https://www.hackthebox.com/achievement/machine/2442977/403)
   
 
 ---
