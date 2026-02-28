@@ -22,8 +22,11 @@ Here are some of the cybersecurity projects and activities I’ve worked on:
 [HackTheBox Profile](https://app.hackthebox.com/profile/activity)  
 
 - Participated in Tier 0 and Tier 1 challenges.  
-- Gained hands-on experience in **reconnaissance, exploitation, and post-exploitation**.  
-- Improved skills in Linux privilege escalation and web exploitation.  
+- Gained hands-on experience in reconnaissance, exploitation, and post-exploitation.  
+- Improved skills in Linux privilege escalation and web exploitation.
+  Some flags captured include:
+  https://labs.hackthebox.com/achievement/machine/2442977/393 
+  HackTheBox Sequel badge
 
 ---
 
