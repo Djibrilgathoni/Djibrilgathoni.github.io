@@ -26,7 +26,6 @@ title: ""
       max-width: 1100px;
       margin: 40px auto 80px;
       padding: 0 20px;
-      background: #0a0a0a;
     }
     .hero {
       text-align: center;
@@ -83,20 +82,20 @@ title: ""
       border-bottom: 2px solid #333;
       padding-bottom: 12px;
     }
-    .results-grid, .project-grid {
+    .results-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
       gap: 24px;
       margin-top: 25px;
     }
-    .result-card, .project-card {
+    .result-card {
       background: #1e1e2e;
       padding: 28px;
       border-radius: 12px;
       border: 1px solid #333;
       transition: all 0.4s ease;
     }
-    .result-card:hover, .project-card:hover {
+    .result-card:hover {
       border-color: #00ff9d;
       transform: translateY(-8px);
       box-shadow: 0 12px 30px rgba(0, 255, 157, 0.15);
@@ -106,15 +105,6 @@ title: ""
       font-weight: bold;
       color: #00ff9d;
       margin-bottom: 12px;
-    }
-    .project-image img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 18px;
-      transition: transform 0.5s ease;
-    }
-    .project-card:hover .project-image img {
-      transform: scale(1.06);
     }
     .contact-info p {
       margin: 15px 0;
@@ -138,12 +128,12 @@ title: ""
       <h1>Hi, I'm Djibril Gathoni 👋</h1>
       <h2>Junior IT & Cybersecurity Professional | CEH Certified</h2>
       <p class="lead">
-        I help keep systems secure and running smoothly.<br>
+        I help organizations keep systems secure and running smoothly.<br>
         At Kenya Tea Packers Ltd, I maintained <strong>99.9% network uptime</strong> and achieved 
         <strong>92% first-contact resolution</strong> for 50+ users.
       </p>
       <div class="cta-buttons">
-        <a href="assets/images/DJIBRIL_GATHONI_CV.pdf" class="btn btn-primary" target="_blank">
+        <a href="assets/images/DJIBRIL GATHONI CV.pdf" class="btn btn-primary" target="_blank">
           Download Resume (PDF)
         </a>
         <a href="https://www.linkedin.com/in/djibrilgathoni/" class="btn btn-secondary" target="_blank">
@@ -158,11 +148,11 @@ title: ""
       <div class="results-grid">
         <div class="result-card">
           <div class="metric">99.9%</div>
-          <p><strong>Network Uptime</strong><br>Maintained infrastructure for 20+ Active Directory accounts</p>
+          <p><strong>Network Uptime</strong><br>Maintained infrastructure for 200+ Active Directory accounts</p>
         </div>
         <div class="result-card">
           <div class="metric">92%</div>
-          <p><strong>First-Contact Resolution</strong><br>Fast IT support to 30+ users during internship</p>
+          <p><strong>First-Contact Resolution</strong><br>Fast IT support to 50+ users during internship</p>
         </div>
         <div class="result-card">
           <div class="metric">50+</div>
@@ -179,57 +169,23 @@ title: ""
       </div>
     </section>
 
-    <!-- Experience -->
+    <!-- Quick Projects Teaser -->
     <section>
-      <h2> Professional Experience</h2>
-      <div style="background:#1e1e2e; padding:30px; border-radius:12px; border:1px solid #333;">
-        <h3>IT Intern</h3>
-        <p><strong>Kenya Tea Packers Ltd</strong> • May – August 2024</p>
-        <ul>
-          <li>Supported 30+ users with hardware, software, network & security issues</li>
-          <li>Managed Active Directory for 20+ accounts with high availability</li>
-          <li>Performed endpoint patching and vulnerability minimization</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Projects -->
-    <section>
-      <h2> Hands-On Projects & Labs</h2>
-      <div class="project-grid">
-
-        <div class="project-card">
-          <h3>Hack The Box CTF Challenges</h3>
-          <p><strong>10+ Machines Attempted</strong></p>
-          <p>Successfully owned multiple machines including <strong>Fawn</strong> — FTP enumeration, privilege escalation, and flag capture.</p>
-          <p><a href="https://labs.hackthebox.com/achievement/machine/2442977/461" target="_blank">View Fawn Achievement →</a></p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-image">
-            <img src="assets/images/projects/cyber-shujaa.jpg" alt="Cyber Shujaa Labs">
-          </div>
-          <h3>Cyber Shujaa Labs</h3>
-          <p><strong>50+ Vulnerabilities Identified</strong></p>
-          <p>Network analysis with Wireshark and vulnerability scanning with Nessus. Practiced Active Directory attack & defense.</p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-image">
-            <img src="assets/images/projects/web-pen-test.jpg" alt="Web Application Penetration Testing">
-          </div>
-          <h3>Web Application Penetration Testing Lab</h3>
-          <p>Simulated attacks using Burp Suite and Nmap. Identified SQL injection, XSS, and other critical web vulnerabilities.</p>
-          <p><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf" target="_blank">View Certificate →</a></p>
-        </div>
-
+      <h2> My Projects & Labs</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto 30px; color: #aaa;">
+        Hands-on work I've done in penetration testing, vulnerability assessment, and security labs.
+      </p>
+      <div style="text-align: center; margin: 30px 0;">
+        <a href="projects.html" class="btn btn-primary" style="padding: 16px 40px; font-size: 1.1rem;">
+          View All My Projects →
+        </a>
       </div>
     </section>
 
     <!-- Contact -->
     <section>
       <h2>Let's Connect</h2>
-      <p>I'm actively looking for junior roles in IT Support, System Administration, Network Technician, or Cybersecurity.</p>
+      <p>I'm actively looking for junior opportunities in IT Support, System Administration, Network Technician, or Cybersecurity roles.</p>
       <div class="contact-info">
         <p><strong>Email:</strong> <a href="mailto:ndungudjibril@gmail.com">ndungudjibril@gmail.com</a></p>
         <p><strong>Phone:</strong> +254 714 086 144</p>
@@ -240,7 +196,7 @@ title: ""
   </main>
 
   <footer>
-    © 2026 Djibril Gathoni • Built for Cybersecurity Opportunities
+    © 2026 Djibril Gathoni • Passionate about Cybersecurity & IT
   </footer>
 
 </body>
