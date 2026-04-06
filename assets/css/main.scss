@@ -6,46 +6,41 @@
 @import "minimal-mistakes";                 // This line is usually already there in the theme
 
 // ==================== YOUR CUSTOM STYLES BELOW ====================
-
 .hero {
+  background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
+  padding: 80px 20px;
   text-align: center;
-  padding: 40px 20px;
-  margin-bottom: 40px;
+  border-bottom: 1px solid #00ff9d33;
 }
 
 .hero h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .lead {
-  font-size: 1.25rem;
-  max-width: 800px;
-  margin: 0 auto 30px;
+  font-size: 1.35rem;
+  max-width: 820px;
+  margin: 20px auto;
+  color: #e0e0e0;
 }
 
-.cta-buttons {
-  margin-top: 20px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 14px 28px;
-  margin: 8px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: all 0.3s;
+.sub-lead {
+  font-size: 1.1rem;
+  color: #00cc99;
+  margin: 20px auto 30px;
 }
 
 .btn-primary {
   background: #00ff9d;
   color: #000;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
-  background: #00cc7a;
-  transform: translateY(-2px);
+  background: #00e68a;
+  transform: translateY(-3px);
 }
 
 .btn-secondary {
@@ -59,79 +54,31 @@
   color: #000;
 }
 
-.results-grid,
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-  margin-top: 24px;
+/* Cards - warmer & modern */
+.result-card, .project-card {
+  background: #16213e;
+  border: 1px solid #334466;
+  transition: all 0.4s ease;
 }
 
-.result-card,
-.project-card {
-  background: #1e1e1e;
-  padding: 24px;
-  border-radius: 12px;
-  border: 1px solid #333;
-  transition: transform 0.3s;
-}
-
-.result-card:hover,
-.project-card:hover {
-  transform: translateY(-5px);
+.result-card:hover, .project-card:hover {
+  border-color: #00ff9d;
+  box-shadow: 0 10px 25px rgba(0, 255, 157, 0.15);
+  transform: translateY(-6px);
 }
 
 .metric {
-  font-size: 2.8rem;
-  font-weight: bold;
   color: #00ff9d;
-  margin-bottom: 12px;
-  line-height: 1;
+  text-shadow: 0 0 10px rgba(0, 255, 157, 0.5);
 }
 
-.job ul {
-  padding-left: 20px;
-}
-
-.contact-info p {
-  margin: 8px 0;
-}
-
-.project-image {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-bottom: 18px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
+/* Project images */
 .project-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.6s ease, filter 0.4s ease;
+  transition: transform 0.5s ease;
 }
 
 .project-card:hover .project-image img {
-  transform: scale(1.08);
-  filter: brightness(1.1);
+  transform: scale(1.06);
 }
 
-/* Fade-in animation */
-.project-card,
-.result-card {
-  opacity: 0;
-  transform: translateY(30px);
-  animation: fadeUp 0.8s forwards;
-}
 
-.project-card:nth-child(1) { animation-delay: 0.1s; }
-.project-card:nth-child(2) { animation-delay: 0.2s; }
-.project-card:nth-child(3) { animation-delay: 0.3s; }
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
