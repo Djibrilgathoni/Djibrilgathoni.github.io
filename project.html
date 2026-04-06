@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Djibril Gathoni</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #0a0a0a !important;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      color: #00ff9d;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .project-card {
+      background: #1e1e2e;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #333;
+    }
+    .project-image img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #00ff9d;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <a href="index.html" class="back-btn">← Back to Home</a>
+    
+    <h1>My Projects & Labs</h1>
+    <p>Here are the practical projects and labs I've completed to develop my cybersecurity and IT skills.</p>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3>Hack The Box CTF Challenges</h3>
+        <p><strong>10+ Machines Attempted</strong></p>
+        <p>Successfully compromised multiple machines including <strong>Fawn</strong> using FTP enumeration, gained initial access, performed privilege escalation, and captured the flag.</p>
+        <p><a href="https://labs.hackthebox.com/achievement/machine/2442977/461" target="_blank">View Fawn Achievement →</a></p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="assets/images/projects/" alt="Cyber Shujaa Labs">
+        </div>
+        <h3>Cyber Shujaa Labs </h3>
+        <p><strong>50+ Vulnerabilities Identified</strong></p>
+        <p>Performed network traffic analysis with Wireshark and conducted vulnerability scans using Nessus. Practiced Active Directory attack and defense techniques in simulated environments.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="assets/images/projects/web-pen-test.jpg" alt="Web Application Penetration Testing">
+        </div>
+        <h3>Web Application Penetration Testing Lab</h3>
+        <p>Simulated real-world attacks on vulnerable web applications using Burp Suite, Nmap, and manual testing. Identified and reported multiple critical flaws including SQL injection and XSS.</p>
+        <p><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf" target="_blank">View Certificate →</a></p>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
