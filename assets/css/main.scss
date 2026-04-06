@@ -1,0 +1,98 @@
+---
+---
+
+// Import the default Jekyll/Minimal Mistakes (or whatever theme you're using) styles first
+@import "minimal-mistakes/skins/default";   // Change "default" if you're using a different skin
+@import "minimal-mistakes";                 // This line is usually already there in the theme
+
+// ==================== YOUR CUSTOM STYLES BELOW ====================
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  margin: 8px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background: #00ff9d;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background: #00cc7a;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #00ff9d;
+  color: #00ff9d;
+}
+
+.btn-secondary:hover {
+  background: #00ff9d;
+  color: #000;
+}
+
+.results-grid,
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.result-card,
+.project-card {
+  background: #1e1e1e;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  transition: transform 0.3s;
+}
+
+.result-card:hover,
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.metric {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #00ff9d;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.job ul {
+  padding-left: 20px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
