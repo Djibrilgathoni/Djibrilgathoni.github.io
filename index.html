@@ -7,122 +7,265 @@ author_profile: true
 title: ""    
 ---
 
-<main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Djibril Gathoni | Junior IT & Cybersecurity Professional</title>
+  <style>
+    :root {
+      --accent: #00ff9d;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #1a1a2e, #0a0a0a);
+      border-bottom: 1px solid #00ff9d33;
+    }
+    .hero h1 {
+      font-size: 3.2rem;
+      margin: 0 0 10px 0;
+      color: white;
+    }
+    .hero h2 {
+      font-size: 1.6rem;
+      color: var(--accent);
+      margin-bottom: 25px;
+    }
+    .lead {
+      font-size: 1.35rem;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+    .cta-buttons {
+      margin-top: 30px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #000;
+    }
+    .btn-primary:hover {
+      background: #00cc7a;
+      transform: translateY(-3px);
+    }
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid var(--accent);
+      color: var(--accent);
+    }
+    .btn-secondary:hover {
+      background: var(--accent);
+      color: #000;
+    }
 
-  <!-- Hero - More Welcoming -->
-  <section class="hero">
-    <div class="hero-content">
+    section {
+      margin: 60px 0;
+    }
+    h2 {
+      color: var(--accent);
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .result-card {
+      background: #1e1e2e;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: all 0.3s;
+    }
+    .result-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-6px);
+    }
+    .metric {
+      font-size: 2.8rem;
+      font-weight: bold;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+    }
+    .project-card {
+      background: #1e1e2e;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: all 0.3s;
+    }
+    .project-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-6px);
+    }
+    .project-image img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      transition: transform 0.5s ease;
+    }
+    .project-card:hover .project-image img {
+      transform: scale(1.05);
+    }
+
+    .contact-info p {
+      margin: 12px 0;
+    }
+    a {
+      color: var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
       <h1>Hi, I'm Djibril Gathoni 👋</h1>
       <h2>Junior IT & Cybersecurity Professional | CEH Certified</h2>
-      
       <p class="lead">
-        I turn complex IT problems into reliable, secure systems.<br>
-        At Kenya Tea Packers, I kept the network running at <strong>99.9% uptime</strong> while supporting 50+ users with a <strong>92% first-contact resolution rate</strong>.
+        I deliver reliable IT operations and hands-on cybersecurity results.<br>
+        At Kenya Tea Packers Ltd, I maintained <strong>99.9% network uptime</strong> and achieved 
+        <strong>92% first-contact resolution</strong> for 50+ users.
       </p>
-
-      <p class="sub-lead">
-        Passionate about penetration testing, vulnerability hunting, and building secure infrastructure.
-      </p>
-
       <div class="cta-buttons">
-        <a href="assets/images/DJIBRIL_GATHONI_CV.pdf" class="btn btn-primary" target="_blank">
-          Download My Resume
+        <a href="assets/images/DJIBRIL GATHONI CV.pdf" class="btn btn-primary" target="_blank">
+          Download Resume (PDF)
         </a>
         <a href="https://www.linkedin.com/in/djibrilgathoni/" class="btn btn-secondary" target="_blank">
-          Let's Connect on LinkedIn
+          Connect on LinkedIn
         </a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Key Results -->
-  <section class="results">
-    <h2> Key Results & Impact</h2>
-    
-    <div class="results-grid">
-      <div class="result-card">
-        <div class="metric">99.9%</div>
-        <p><strong>Network Uptime</strong><br>Supported 200+ Active Directory accounts at Kenya Tea Packers Ltd</p>
-      </div>
-      <div class="result-card">
-        <div class="metric">92%</div>
-        <p><strong>First-Contact Resolution</strong><br>Fast IT support for 50+ users during internship</p>
-      </div>
-      <div class="result-card">
-        <div class="metric">50+</div>
-        <p><strong>Vulnerabilities Found</strong><br>Using Nessus in Cyber Shujaa Labs</p>
-      </div>
-      <div class="result-card">
-        <div class="metric">10+</div>
-        <p><strong>Hack The Box Machines</strong><br>Including Fawn via FTP + privilege escalation</p>
-      </div>
-      <div class="result-card">
-        <div class="metric">100+</div>
-        <p><strong>Endpoints Patched</strong><br>Reduced security risks across the network</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section class="experience">
-    <h2> Professional Experience</h2>
-    
-    <div class="job">
-      <h3>IT Intern</h3>
-      <p class="company">Kenya Tea Packers Ltd • May – August 2024</p>
-      <ul>
-        <li>Supported 50+ users with hardware, software, network & security issues</li>
-        <li>Managed Active Directory for 200+ accounts with high availability</li>
-        <li>Performed endpoint patching and vulnerability minimization</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section class="projects">
-    <h2> Hands-On Projects & Labs</h2>
-    
-    <div class="project-grid">
-      <div class="project-card">
-        <h3>Hack The Box CTF Challenges</h3>
-        <p><strong>10+ Machines Attempted</strong></p>
-        <p>Successfully owned multiple machines including <strong>Fawn</strong> — FTP enumeration, initial access, privilege escalation, and flag capture. Full methodology documented.</p>
-        <a href="https://labs.hackthebox.com/achievement/machine/2442977/461" target="_blank" class="project-link">View Fawn Achievement →</a>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="assets/images/projects/cyber-shujaa.jpg" alt="Cyber Shujaa Labs" loading="lazy">
+    <!-- Key Results -->
+    <section>
+      <h2>🚀 Key Results & Impact</h2>
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="metric">99.9%</div>
+          <p><strong>Network Uptime</strong><br>Maintained critical infrastructure supporting 200+ Active Directory accounts</p>
         </div>
-        <h3>Cyber Shujaa Labs</h3>
-        <p><strong>50+ Vulnerabilities Identified</strong></p>
-        <p>Network analysis with Wireshark and vulnerability scanning with Nessus. Practiced Active Directory attack & defense in simulated environments.</p>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="assets/images/projects/web-pen-test.jpg" alt="Web App Penetration Testing" loading="lazy">
+        <div class="result-card">
+          <div class="metric">92%</div>
+          <p><strong>First-Contact Resolution</strong><br>Delivered fast IT support to 50+ end users</p>
         </div>
-        <h3>Web Application Penetration Testing Lab</h3>
-        <p>Simulated real-world attacks using Burp Suite, Nmap, and manual methods. Discovered and reported SQL injection, XSS, and other critical flaws.</p>
-        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf" 
-           target="_blank" class="project-link">View Certificate →</a>
+        <div class="result-card">
+          <div class="metric">50+</div>
+          <p><strong>Vulnerabilities Identified</strong><br>Using Nessus scans in Cyber Shujaa Labs</p>
+        </div>
+        <div class="result-card">
+          <div class="metric">10+</div>
+          <p><strong>Hack The Box Machines</strong><br>Including Fawn via FTP enumeration + privilege escalation</p>
+        </div>
+        <div class="result-card">
+          <div class="metric">100+</div>
+          <p><strong>Endpoints Patched</strong><br>Reduced security risks through timely updates</p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <section class="contact">
-    <h2>Let's Connect</h2>
-    <p>I'm actively seeking junior opportunities in IT Support, System Administration, Network Technician, or Cybersecurity roles.</p>
-    
-    <div class="contact-info">
-      <p><strong>Email:</strong> <a href="mailto:ndungudjibril@gmail.com">ndungudjibril@gmail.com</a></p>
-      <p><strong>Phone:</strong> +254 714 086 144</p>
-      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/djibrilgathoni/" target="_blank">linkedin.com/in/djibrilgathoni</a></p>
-    </div>
-  </section>
+    <!-- Experience -->
+    <section>
+      <h2>💼 Professional Experience</h2>
+      <div style="background:#1e1e2e; padding:25px; border-radius:12px; border:1px solid #333;">
+        <h3>IT Intern</h3>
+        <p><strong>Kenya Tea Packers Ltd</strong> • May – August 2024</p>
+        <ul>
+          <li>Supported 50+ users with hardware, software, network & security issues</li>
+          <li>Managed Active Directory for 200+ accounts with high availability</li>
+          <li>Performed endpoint patching and vulnerability minimization</li>
+        </ul>
+      </div>
+    </section>
 
-</main>
+    <!-- Projects -->
+    <section>
+      <h2>🛠️ Hands-On Projects & Labs</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>Hack The Box CTF Challenges</h3>
+          <p><strong>10+ Machines Attempted</strong></p>
+          <p>Successfully owned multiple machines including <strong>Fawn</strong> — FTP enumeration, initial access, privilege escalation, and flag capture. Full methodology documented.</p>
+          <p><a href="https://labs.hackthebox.com/achievement/machine/2442977/461" target="_blank">View Fawn Achievement →</a></p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/images/projects/cyber-shujaa.jpg" alt="Cyber Shujaa Labs" style="width:100%;">
+          </div>
+          <h3>Cyber Shujaa Labs (USIU-Africa)</h3>
+          <p><strong>50+ Vulnerabilities Identified</strong></p>
+          <p>Network traffic analysis with Wireshark and vulnerability scanning with Nessus in simulated environments. Practiced Active Directory attack & defense.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/images/projects/web-pen-test.jpg" alt="Web Application Penetration Testing" style="width:100%;">
+          </div>
+          <h3>Web Application Penetration Testing Lab</h3>
+          <p>Simulated real-world attacks using Burp Suite, Nmap, and manual techniques. Identified and reported SQL injection, XSS, and other critical flaws.</p>
+          <p><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf" target="_blank">View Certificate →</a></p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2>Let's Connect</h2>
+      <p>I'm actively looking for junior roles in IT Support, System Administration, Network Technician, or Cybersecurity.</p>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:ndungudjibril@gmail.com">ndungudjibril@gmail.com</a></p>
+        <p><strong>Phone:</strong> +254 714 086 144</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/djibrilgathoni/" target="_blank">linkedin.com/in/djibrilgathoni</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Djibril Gathoni • Built with passion for cybersecurity
+  </footer>
+
+</body>
+</html>
 
 
