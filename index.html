@@ -14,48 +14,46 @@ title: ""
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Djibril Gathoni | Junior IT & Cybersecurity Professional</title>
   <style>
-    :root {
-      --accent: #00ff9d;
-    }
-    body {
+    html, body {
       margin: 0;
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      background: #0a0a0a;
+      padding: 0;
+      background: #0a0a0a !important;
       color: #e0e0e0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
       line-height: 1.6;
     }
     main {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px 20px;
+      max-width: 1100px;
+      margin: 40px auto 80px;
+      padding: 0 20px;
+      background: #0a0a0a;
     }
     .hero {
       text-align: center;
-      padding: 60px 20px;
+      padding: 90px 20px 70px;
       background: linear-gradient(135deg, #1a1a2e, #0a0a0a);
       border-bottom: 1px solid #00ff9d33;
+      margin-bottom: 60px;
     }
     .hero h1 {
-      font-size: 3.2rem;
-      margin: 0 0 10px 0;
-      color: white;
+      font-size: 3.3rem;
+      margin: 0 0 12px 0;
+      color: #ffffff;
     }
     .hero h2 {
-      font-size: 1.6rem;
-      color: var(--accent);
+      font-size: 1.7rem;
+      color: #00ff9d;
       margin-bottom: 25px;
     }
     .lead {
-      font-size: 1.35rem;
-      max-width: 800px;
-      margin: 0 auto 30px;
+      font-size: 1.4rem;
+      max-width: 820px;
+      margin: 0 auto 35px;
+      color: #d0d0d0;
     }
-    .cta-buttons {
-      margin-top: 30px;
-    }
-    .btn {
+    .cta-buttons a {
       display: inline-block;
-      padding: 14px 32px;
+      padding: 15px 34px;
       margin: 10px;
       border-radius: 8px;
       text-decoration: none;
@@ -63,91 +61,71 @@ title: ""
       transition: all 0.3s ease;
     }
     .btn-primary {
-      background: var(--accent);
+      background: #00ff9d;
       color: #000;
     }
     .btn-primary:hover {
-      background: #00cc7a;
+      background: #00e68a;
       transform: translateY(-3px);
     }
     .btn-secondary {
       background: transparent;
-      border: 2px solid var(--accent);
-      color: var(--accent);
+      border: 2px solid #00ff9d;
+      color: #00ff9d;
     }
     .btn-secondary:hover {
-      background: var(--accent);
+      background: #00ff9d;
       color: #000;
     }
 
-    section {
-      margin: 60px 0;
-    }
     h2 {
-      color: var(--accent);
+      color: #00ff9d;
       border-bottom: 2px solid #333;
-      padding-bottom: 10px;
+      padding-bottom: 12px;
     }
-    .results-grid {
+    .results-grid, .project-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 24px;
+      margin-top: 25px;
     }
-    .result-card {
+    .result-card, .project-card {
       background: #1e1e2e;
-      padding: 24px;
+      padding: 28px;
       border-radius: 12px;
       border: 1px solid #333;
-      transition: all 0.3s;
+      transition: all 0.4s ease;
     }
-    .result-card:hover {
-      border-color: var(--accent);
-      transform: translateY(-6px);
+    .result-card:hover, .project-card:hover {
+      border-color: #00ff9d;
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 255, 157, 0.15);
     }
     .metric {
-      font-size: 2.8rem;
+      font-size: 2.9rem;
       font-weight: bold;
-      color: var(--accent);
-      margin-bottom: 8px;
-    }
-
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 25px;
-    }
-    .project-card {
-      background: #1e1e2e;
-      padding: 24px;
-      border-radius: 12px;
-      border: 1px solid #333;
-      transition: all 0.3s;
-    }
-    .project-card:hover {
-      border-color: var(--accent);
-      transform: translateY(-6px);
+      color: #00ff9d;
+      margin-bottom: 12px;
     }
     .project-image img {
       width: 100%;
       border-radius: 10px;
-      margin-bottom: 15px;
+      margin-bottom: 18px;
       transition: transform 0.5s ease;
     }
     .project-card:hover .project-image img {
-      transform: scale(1.05);
+      transform: scale(1.06);
     }
-
     .contact-info p {
-      margin: 12px 0;
+      margin: 15px 0;
     }
-    a {
-      color: var(--accent);
-    }
+    a { color: #00ff9d; }
     footer {
       text-align: center;
-      padding: 30px;
-      color: #666;
-      font-size: 0.9rem;
+      padding: 50px 20px 30px;
+      color: #555;
+      font-size: 0.95rem;
+      background: #0a0a0a;
     }
   </style>
 </head>
@@ -160,12 +138,12 @@ title: ""
       <h1>Hi, I'm Djibril Gathoni 👋</h1>
       <h2>Junior IT & Cybersecurity Professional | CEH Certified</h2>
       <p class="lead">
-        I deliver reliable IT operations and hands-on cybersecurity results.<br>
+        I help keep systems secure and running smoothly.<br>
         At Kenya Tea Packers Ltd, I maintained <strong>99.9% network uptime</strong> and achieved 
         <strong>92% first-contact resolution</strong> for 50+ users.
       </p>
       <div class="cta-buttons">
-        <a href="assets/images/DJIBRIL GATHONI CV.pdf" class="btn btn-primary" target="_blank">
+        <a href="assets/images/DJIBRIL_GATHONI_CV.pdf" class="btn btn-primary" target="_blank">
           Download Resume (PDF)
         </a>
         <a href="https://www.linkedin.com/in/djibrilgathoni/" class="btn btn-secondary" target="_blank">
@@ -176,19 +154,19 @@ title: ""
 
     <!-- Key Results -->
     <section>
-      <h2>🚀 Key Results & Impact</h2>
+      <h2> Key Results & Impact</h2>
       <div class="results-grid">
         <div class="result-card">
           <div class="metric">99.9%</div>
-          <p><strong>Network Uptime</strong><br>Maintained critical infrastructure supporting 200+ Active Directory accounts</p>
+          <p><strong>Network Uptime</strong><br>Maintained infrastructure for 20+ Active Directory accounts</p>
         </div>
         <div class="result-card">
           <div class="metric">92%</div>
-          <p><strong>First-Contact Resolution</strong><br>Delivered fast IT support to 50+ end users</p>
+          <p><strong>First-Contact Resolution</strong><br>Fast IT support to 30+ users during internship</p>
         </div>
         <div class="result-card">
           <div class="metric">50+</div>
-          <p><strong>Vulnerabilities Identified</strong><br>Using Nessus scans in Cyber Shujaa Labs</p>
+          <p><strong>Vulnerabilities Identified</strong><br>Using Nessus in Cyber Shujaa Labs</p>
         </div>
         <div class="result-card">
           <div class="metric">10+</div>
@@ -196,20 +174,20 @@ title: ""
         </div>
         <div class="result-card">
           <div class="metric">100+</div>
-          <p><strong>Endpoints Patched</strong><br>Reduced security risks through timely updates</p>
+          <p><strong>Endpoints Patched</strong><br>Reduced security risks across the network</p>
         </div>
       </div>
     </section>
 
     <!-- Experience -->
     <section>
-      <h2>💼 Professional Experience</h2>
-      <div style="background:#1e1e2e; padding:25px; border-radius:12px; border:1px solid #333;">
+      <h2> Professional Experience</h2>
+      <div style="background:#1e1e2e; padding:30px; border-radius:12px; border:1px solid #333;">
         <h3>IT Intern</h3>
         <p><strong>Kenya Tea Packers Ltd</strong> • May – August 2024</p>
         <ul>
-          <li>Supported 50+ users with hardware, software, network & security issues</li>
-          <li>Managed Active Directory for 200+ accounts with high availability</li>
+          <li>Supported 30+ users with hardware, software, network & security issues</li>
+          <li>Managed Active Directory for 20+ accounts with high availability</li>
           <li>Performed endpoint patching and vulnerability minimization</li>
         </ul>
       </div>
@@ -217,31 +195,31 @@ title: ""
 
     <!-- Projects -->
     <section>
-      <h2>🛠️ Hands-On Projects & Labs</h2>
+      <h2> Hands-On Projects & Labs</h2>
       <div class="project-grid">
 
         <div class="project-card">
           <h3>Hack The Box CTF Challenges</h3>
           <p><strong>10+ Machines Attempted</strong></p>
-          <p>Successfully owned multiple machines including <strong>Fawn</strong> — FTP enumeration, initial access, privilege escalation, and flag capture. Full methodology documented.</p>
+          <p>Successfully owned multiple machines including <strong>Fawn</strong> — FTP enumeration, privilege escalation, and flag capture.</p>
           <p><a href="https://labs.hackthebox.com/achievement/machine/2442977/461" target="_blank">View Fawn Achievement →</a></p>
         </div>
 
         <div class="project-card">
           <div class="project-image">
-            <img src="assets/images/projects/cyber-shujaa.jpg" alt="Cyber Shujaa Labs" style="width:100%;">
+            <img src="assets/images/projects/cyber-shujaa.jpg" alt="Cyber Shujaa Labs">
           </div>
-          <h3>Cyber Shujaa Labs (USIU-Africa)</h3>
+          <h3>Cyber Shujaa Labs</h3>
           <p><strong>50+ Vulnerabilities Identified</strong></p>
-          <p>Network traffic analysis with Wireshark and vulnerability scanning with Nessus in simulated environments. Practiced Active Directory attack & defense.</p>
+          <p>Network analysis with Wireshark and vulnerability scanning with Nessus. Practiced Active Directory attack & defense.</p>
         </div>
 
         <div class="project-card">
           <div class="project-image">
-            <img src="assets/images/projects/web-pen-test.jpg" alt="Web Application Penetration Testing" style="width:100%;">
+            <img src="assets/images/projects/web-pen-test.jpg" alt="Web Application Penetration Testing">
           </div>
           <h3>Web Application Penetration Testing Lab</h3>
-          <p>Simulated real-world attacks using Burp Suite, Nmap, and manual techniques. Identified and reported SQL injection, XSS, and other critical flaws.</p>
+          <p>Simulated attacks using Burp Suite and Nmap. Identified SQL injection, XSS, and other critical web vulnerabilities.</p>
           <p><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf" target="_blank">View Certificate →</a></p>
         </div>
 
@@ -262,10 +240,9 @@ title: ""
   </main>
 
   <footer>
-    © 2026 Djibril Gathoni • Built with passion for cybersecurity
+    © 2026 Djibril Gathoni • Built for Cybersecurity Opportunities
   </footer>
 
 </body>
 </html>
-
 
