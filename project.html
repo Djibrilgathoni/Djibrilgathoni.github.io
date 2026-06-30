@@ -1,115 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | Djibril Gathoni</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: #0a0a0a !important;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      line-height: 1.6;
-    }
-    main {
-      max-width: 1100px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    h1, h2 {
-      color: #00ff9d;
-    }
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 25px;
-      margin-top: 30px;
-    }
-    .project-card {
-      background: #1e1e2e;
-      padding: 25px;
-      border-radius: 12px;
-      border: 1px solid #333;
-    }
-    .project-image img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 15px;
-    }
-    .back-btn {
-      display: inline-block;
-      margin-bottom: 30px;
-      color: #00ff9d;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
+<h1> Projects </h1>
+<p>Hands-on forensics, CTF, and security lab work — each one investigated, documented, and written up the way I'd report it on the job.</p>
 
-  <main>
-    <a href="index.html" class="back-btn">← Back to Home</a>
-    
-    <h1>My Personal Projects </h1>
-    <p>Here are the hands-on personal projects I've worked on to build real cybersecurity and IT skills.</p>
-    <p>
-   <a href="https://github.com/Djibrilgathoni/lumma-stealer-network-analysis" target="_blank">
-   Malware Traffic Analysis – Lumma Stealer
-  </a>
-</p>
-   <p>
-     <a href="https://github.com/Djibrilgathoni/netsupport-rat-network-analysis" target="_blank">
-     Network Traffic Analysis – Suspicious Activity Detection  
-       
-     </a>
-   </p>
+<div class="section-label">Network Forensics</div>
+<div class="project-grid">
 
-    <div class="project-grid">
-
-      <div class="project-card">
-        <h3>Hack The Box CTF Challenges</h3>
-        <p><strong>10+ Machines Attempted</strong></p>
-        <p>Successfully compromised multiple machines including <strong>Fawn</strong> using FTP enumeration, gained initial access, performed privilege escalation, and captured the flag.</p>
-        <p>
-   <a href="https://github.com/Djibrilgathoni/Network-scanning" target="_blank">
-    View Writeups on GitHub →
-  </a>
-</p>
-<p>
-  <a href="https://labs.hackthebox.com/achievement/machine/2442977/461" target="_blank">
-    View Fawn Achievement →
-  </a>
-</p>
-<p>
-  <a href="https://labs.hackthebox.com/achievement/machine/2442977/403" target="_blank">
-    View Sequel Pwned →
-  </a>
-</p>
-      
+  <div class="project-card">
+    <div class="project-image">
+      <!-- [SCREENSHOT: lumma-wireshark-filter.png — Wireshark filtered view of the C2 beacon traffic] -->
+      <!-- <img src="assets/images/lumma-wireshark-filter.png" alt="Lumma Stealer C2 traffic in Wireshark"> -->
     </div>
-
-      <div class="project-card">
-        <div class="project-image">
-        
-        </div>
-        
-        <h3> Security Labs</h3>
-        <p><strong>50+ Vulnerabilities Identified</strong></p>
-        <p>Conducted network traffic analysis with Wireshark and performed vulnerability scanning using Nessus. Practiced Active Directory attack and defense techniques in my own lab environments.</p>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-         
-        </div>
-        <h3>Web Application Penetration Testing Lab</h3>
-        <p>Simulated real-world attacks on vulnerable web applications using Burp Suite, Nmap, and manual testing techniques. Identified and reported multiple critical flaws including SQL injection and XSS.</p>
-        <p><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf" target="_blank">View Certificate →</a></p>
-      </div>
-
+    <h3>Lumma Stealer — C2 Beacon Analysis</h3>
+    <p>Analyzed PCAP traffic to detect Lumma Stealer command-and-control beaconing, identified the infected host, fingerprinted the victim machine, and extracted indicators of compromise for the incident.</p>
+    <div class="tags">
+      <span class="tag">Wireshark</span>
+      <span class="tag">tshark</span>
+      <span class="tag">IOC Extraction</span>
     </div>
-  </main>
+    <div class="project-links">
+      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+      <a href="https://github.com/Djibrilgathoni/lumma-stealer-network-analysis" target="_blank">View repo →</a>
+    </div>
+  </div>
 
-</body>
-</html>
+  <div class="project-card">
+    <div class="project-image">
+      <!-- [SCREENSHOT: netsupport-c2-traffic.png — captured C2 session in Wireshark] -->
+      <!-- <img src="assets/images/netsupport-c2-traffic.png" alt="NetSupport RAT C2 traffic in Wireshark"> -->
+    </div>
+    <h3>NetSupport RAT — C2 Traffic Investigation</h3>
+    <p>Investigated PCAP data to detect and confirm NetSupport RAT C2 traffic, identified the compromised host on the network, and documented indicators of compromise for response.</p>
+    <div class="tags">
+      <span class="tag">Wireshark</span>
+      <span class="tag">tshark</span>
+      <span class="tag">Host Isolation</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+      <a href="https://github.com/Djibrilgathoni/netsupport-rat-network-analysis" target="_blank">View repo →</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="section-label">HackTheBox — CTF Writeups</div>
+<div class="project-grid">
+
+  <div class="project-card">
+    <div class="project-image">
+      <!-- [SCREENSHOT: reactor-root-flag.png — root flag captured on Reactor] -->
+      <!-- <img src="assets/images/reactor-root-flag.png" alt="HTB Reactor root flag"> -->
+    </div>
+    <h3>Reactor — Full Exploitation Chain</h3>
+    <p>A multi-stage compromise: exploited a Next.js RCE vulnerability (CVE-2025-55182) for initial access, dumped credentials from a SQLite database, cracked the hashes with Hashcat, moved laterally over SSH, then escalated privileges through the Node.js Inspector.</p>
+    <div class="tags">
+      <span class="tag">Web Exploitation</span>
+      <span class="tag">Hashcat</span>
+      <span class="tag">Privilege Escalation</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>Sherlock: Vantage — Cloud Forensics</h3>
+    <p>Investigated an OpenStack breach using tshark-based packet analysis to reconstruct the attack timeline and identify the compromised cloud resource.</p>
+    <div class="tags">
+      <span class="tag">Cloud Forensics</span>
+      <span class="tag">tshark</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>Sherlock: Brutus — SSH Brute-Force DFIR</h3>
+    <p>Performed digital forensics on auth.log and wtmp data to investigate an SSH brute-force attack, identify the attacker's access pattern, and determine the scope of compromise.</p>
+    <div class="tags">
+      <span class="tag">DFIR</span>
+      <span class="tag">Log Analysis</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>ICS Shush Protocol — Modbus/TCP Forensics</h3>
+    <p>Analyzed Modbus/TCP traffic in an industrial control systems context, reverse-engineering a custom protocol to identify malicious commands sent to the simulated ICS environment.</p>
+    <div class="tags">
+      <span class="tag">ICS/SCADA</span>
+      <span class="tag">Protocol Analysis</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>10+ HackTheBox Machines</h3>
+    <p>Compromised multiple machines including <strong>Fawn</strong> via FTP enumeration, gaining initial access, escalating privileges, and capturing the flag.</p>
+    <div class="tags">
+      <span class="tag">CTF</span>
+      <span class="tag">Enumeration</span>
+    </div>
+    <div class="project-links">
+      <a href="https://labs.hackthebox.com/achievement/machine/2442977/461" target="_blank">View Fawn Achievement →</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="section-label">Tools I Build</div>
+<div class="project-grid">
+
+  <div class="project-card">
+    <h3>File Integrity Checker</h3>
+    <p>A CLI tool built in Python to detect log file tampering using SHA-256 cryptographic hashing. Supports init, check, update, and status commands.</p>
+    <div class="tags">
+      <span class="tag">Python</span>
+      <span class="tag">SHA-256</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/Djibrilgathoni/file-integrity-checker" target="_blank">View on GitHub →</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="section-label">Security Labs &amp; Certifications</div>
+<div class="project-grid">
+
+  <div class="project-card">
+    <h3>Security Labs</h3>
+    <p><strong>50+ Vulnerabilities Identified.</strong> Conducted network traffic analysis with Wireshark and performed vulnerability scanning using Nessus. Practiced Active Directory attack and defense techniques in self-built lab environments.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Web Application Penetration Testing Lab</h3>
+    <p>Simulated real-world attacks on vulnerable web applications using Burp Suite, Nmap, and manual testing techniques. Identified and reported multiple critical flaws including SQL injection and XSS.</p>
+    <div class="project-links">
+      <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf" target="_blank">View Certificate →</a>
+    </div>
+  </div>
+
+</div>
