@@ -62,7 +62,8 @@ title: ""
       opacity: 0;
       animation: fadeUp 0.8s ease forwards;
     }
-  .hero h2 {
+
+    .hero h2 {
   position: relative;
   font-size: 1.7rem;
   color: #00ff9d;
@@ -75,26 +76,32 @@ title: ""
   overflow: hidden;
   white-space: nowrap;
   width: 0;
-  border-right: 3px solid #00ff9d;
+  border-right: 3px solid transparent;
 }
-.hero h2 span:nth-child(1) { animation: typing 1s steps(20, end) 0.6s forwards, blinkCursor 0.75s step-end infinite; }
-.hero h2 span:nth-child(2) { animation: typing 1s steps(15, end) 1.8s forwards, blinkCursor 0.75s step-end 1.8s infinite; }
-.hero h2 span:nth-child(3) { animation: typing 1s steps(18, end) 3s forwards, blinkCursor 0.75s step-end 3s infinite; }
+.hero h2 span:nth-child(1) {
+  animation: typing 1s steps(20, end) 0.6s forwards, blinkCursor 0.75s step-end 0.6s 2;
+}
+.hero h2 span:nth-child(2) {
+  animation: typing 1s steps(15, end) 1.8s forwards, blinkCursor 0.75s step-end 1.8s 2;
+}
+.hero h2 span:nth-child(3) {
+  animation: typing 1s steps(18, end) 3s forwards, blinkCursor 0.75s step-end 3s infinite;
+}
     
     .lead {
-      position: relative;
-      font-size: 1.4rem;
-      max-width: 820px;
-      margin: 0 auto 35px;
-      color: #d0d0d0;
-      opacity: 0;
-      animation: fadeUp 0.8s ease 3.2s forwards;
-    }
-    .cta-buttons {
-      position: relative;
-      opacity: 0;
-      animation: fadeUp 0.8s ease 3.5s forwards;
-    }
+  position: relative;
+  font-size: 1.4rem;
+  max-width: 820px;
+  margin: 0 auto 35px;
+  color: #d0d0d0;
+  opacity: 0;
+  animation: fadeUp 0.8s ease 4.3s forwards;
+}
+.cta-buttons {
+  position: relative;
+  opacity: 0;
+  animation: fadeUp 0.8s ease 4.6s forwards;
+}
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(18px); }
       to { opacity: 1; transform: translateY(0); }
@@ -226,12 +233,12 @@ title: ""
 
     <section class="hero">
   <h1>Hi 👋</h1>
-      
-  <h2>
+      <h2>
   <span>SOC Analyst L1</span>
-  <span>CEH </span>
+  <span>CEH Certified</span>
   <span>Blue Team & DFIR</span>
 </h2>
+  
       
   <p class="lead">
     I investigate, analyze, and document security incidents — from network forensics to full exploitation chains.<br>
