@@ -234,7 +234,6 @@ title: ""
 
     
   </style>
-</head>
 <body>
   <main>
 
