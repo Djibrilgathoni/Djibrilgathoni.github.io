@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter, the rest can be included as normal
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: "default" }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* ---- Custom overrides ---- */
+
+/* Fix: sidebar avatar photo is a non-square source image (4000x2252, portrait
+   after EXIF rotation). The theme only sets width + border-radius: 50%, so
+   height scales freely and the circle stretches into an oval. Forcing an
+   equal height with object-fit: cover crops it into a proper circle. */
+.author__avatar img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+}
