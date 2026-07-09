@@ -7,6 +7,15 @@ author_profile: true
 title: ""    
 ---
 
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: single
+author_profile: true
+title: ""    
+---
+
 <style>
   .hero {
     position: relative;
@@ -236,20 +245,20 @@ title: ""
   <h2 class="section-title">Featured Investigation</h2>
   <div class="featured-grid">
     <div class="featured-card">
-      <h3>Reactor — Full Exploitation Chain</h3>
-      <p>A multi-stage HackTheBox compromise: Next.js RCE (CVE-2025-55182) for initial access, SQLite credential dump, Hashcat cracking, SSH lateral movement, and privilege escalation through the Node.js Inspector.</p>
-      <span class="tag">Web Exploitation</span>
-      <span class="tag">Hashcat</span>
-      <span class="tag">Privilege Escalation</span>
-      <p><a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the full writeup →</a></p>
-    </div>
-    <div class="featured-card">
       <h3>NetSupport RAT — C2 Traffic Investigation</h3>
       <p>Investigated live PCAP data to detect and confirm NetSupport RAT C2 traffic, isolated the compromised host, and documented indicators of compromise — the kind of investigation a SOC analyst runs on day one.</p>
       <span class="tag">Wireshark</span>
       <span class="tag">tshark</span>
       <span class="tag">IOC Extraction</span>
-      <p><a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the full writeup →</a></p>
+      <p><a href="https://github.com/Djibrilgathoni/netsupport-rat-network-analysis/blob/main/report.md" target="_blank">Read the full writeup →</a></p>
+    </div>
+    <div class="featured-card">
+      <h3>Sherlock: MangoBleed — Endpoint Forensics</h3>
+      <p>Triaged a compromised MongoDB server from a UAC-collected artifact set — traced initial access, persistence, privilege escalation, and lateral movement to build a full incident assessment.</p>
+      <span class="tag">DFIR</span>
+      <span class="tag">Endpoint Forensics</span>
+      <span class="tag">MongoDB</span>
+      <p><a href="https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/MangoBleed/MangoBleed.md" target="_blank">Read the full writeup →</a></p>
     </div>
   </div>
 </section>
@@ -294,9 +303,9 @@ title: ""
   <h2 class="section-title">Let's Connect</h2>
   <p>I'm actively looking for SOC Analyst L1 and Blue Team / DFIR opportunities.</p>
   <div class="contact-info">
-    <p><strong>Email:</strong> <a href="mailto:ndungudjibril@gmail.com">ndungudjibril@gmail.com</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/djibrilgathoni/" target="_blank">linkedin.com/in/djibrilgathoni</a></p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/Djibrilgathoni" target="_blank">github.com/Djibrilgathoni</a></p>
+    <p><strong></strong> <a href="mailto:ndungudjibril@gmail.com">ndungudjibril@gmail.com</a></p>
+    <p><strong></strong> <a href="https://www.linkedin.com/in/djibrilgathoni/" target="_blank">linkedin.com/in/djibrilgathoni</a></p>
+    <p><strong></strong> <a href="https://github.com/Djibrilgathoni" target="_blank">github.com/Djibrilgathoni</a></p>
   </div>
 </section>
 
