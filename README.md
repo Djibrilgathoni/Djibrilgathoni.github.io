@@ -1,10 +1,10 @@
 # Djibril Gathoni's Portfolio
 
-**SOC Analyst L1 | CEH Certified | Blue Team & DFIR**
+**SOC Analyst L1 | CEH | Blue Team & DFIR**
 
 ### Professional Summary
 Recent BBIT graduate (October 2025) and Certified Ethical Hacker (CEH) with practical IT support experience during a 4-month attachment at Kenya Tea Packers Ltd (KETEPA), where I achieved a 92% first-contact resolution rate and a 25% reduction in system downtime supporting 30+ users.  
-Since then I've built a hands-on blue team and DFIR portfolio through HackTheBox Sherlocks, independent network forensics investigations, and self-built labs — documenting every investigation like a real incident report, not a tutorial.  
+Since then I've built a hands-on blue team and DFIR portfolio through HackTheBox Sherlocks, independent network forensics investigations, and self-built labs, documenting every investigation like a real incident report, not a tutorial.  
 Passionate about log analysis, network forensics, and incident response, with a focus on bringing that same rigor to a SOC Analyst L1 role.
 
 ### Technical Skills
