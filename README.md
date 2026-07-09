@@ -1,12 +1,11 @@
 # Djibril Gathoni's Portfolio
 
-**Junior IT & Cybersecurity Professional | CEH Certified | IT Support, Systems Administration & Network Security**
+**SOC Analyst L1 | CEH Certified | Blue Team & DFIR**
 
 ### Professional Summary
-Recent BBIT graduate (October 2025) and Certified Ethical Hacker (CEH) with practical experience delivering reliable IT support to 50+ users during a 4-month attachment at Kenya Tea Packers Ltd (KETEPA).  
-Achieved a 92% first-contact resolution rate and sustained 99.9% network uptime by managing Active Directory for 200+ accounts, patching 100+ endpoints, and minimizing security vulnerabilities.  
-Hands-on skills include completing 10+ Hack The Box machines, running Nessus vulnerability scans, and analyzing network traffic with Wireshark in Cyber Shujaa labs.  
-Passionate about blending IT operations, networking, system administration, and cybersecurity to drive efficiency, reliability, and security across critical systems.
+Recent BBIT graduate (October 2025) and Certified Ethical Hacker (CEH) with practical IT support experience during a 4-month attachment at Kenya Tea Packers Ltd (KETEPA), where I achieved a 92% first-contact resolution rate and a 25% reduction in system downtime supporting 30+ users.  
+Since then I've built a hands-on blue team and DFIR portfolio through HackTheBox Sherlocks, independent network forensics investigations, and self-built labs — documenting every investigation like a real incident report, not a tutorial.  
+Passionate about log analysis, network forensics, and incident response, with a focus on bringing that same rigor to a SOC Analyst L1 role.
 
 ### Technical Skills
 **Networking & Protocols**  
@@ -16,41 +15,57 @@ TCP/IP, DNS/DHCP configuration, subnetting, VLANs, routing fundamentals, switch/
 Windows 10/11 & Server, Linux (Debian/Kali), Active Directory (user/GPO/OU management), endpoint management  
 
 **Cybersecurity Tools & Practices**  
-Nmap, Wireshark, Nessus, Burp Suite, Metasploit, Hack The Box CTFs, vulnerability scanning, penetration testing basics, network traffic analysis  
+Wireshark, tshark, Splunk, Hashcat, Nmap, Nessus, Burp Suite, Metasploit, vulnerability scanning, log analysis, incident response, threat hunting (PEAK Framework)  
 
 **IT Support & Operations**  
 Helpdesk/ticketing systems, hardware/software troubleshooting, system maintenance, backups, patches, ERP/application support  
 
 ### Featured Projects & Labs
-- **Hack The Box CTF Challenges**  
-  Completed 10+ machines (including Fawn via FTP enumeration and privilege escalation). Captured flags and documented methodologies on LinkedIn.  
-  Tools: Nmap, Wireshark, FTP, Kali Linux  
+- **[Lumma Stealer — C2 Beacon Analysis](https://github.com/Djibrilgathoni/lumma-stealer-network-analysis/blob/main/report.md)**  
+  PCAP analysis to detect Lumma Stealer C2 beaconing, fingerprint the infected host, and extract IOCs.  
+  Tools: Wireshark, tshark
 
-- **Cyber Shujaa Labs (USIU-Africa)**  
-  Performed network traffic analysis with Wireshark, conducted Nessus vulnerability scans (identified 50+ vulnerabilities in simulated environments), and practiced Active Directory attack & defense techniques.  
+- **[NetSupport RAT — C2 Traffic Investigation](https://github.com/Djibrilgathoni/netsupport-rat-network-analysis/blob/main/report.md)**  
+  Investigated live PCAP data to confirm NetSupport RAT C2 traffic and isolate the compromised host.  
+  Tools: Wireshark, tshark
+
+- **[HTB Sherlock: MangoBleed](https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/MangoBleed/MangoBleed.md)**  
+  Endpoint forensics — triaged a compromised MongoDB server from a UAC-collected artifact set to trace initial access, persistence, and lateral movement.
+
+- **[HTB Sherlock: Telly](https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/Telly/Telly.md)**  
+  Network forensics — reconstructed a Telnet-based exploit and data exfiltration path via Wireshark and SQLite artifact analysis.
+
+- **[HTB Sherlock: Vantage](https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/Vantage/Vantage.md)**  
+  Cloud forensics — investigated an OpenStack breach using tshark-based packet analysis.
+
+- **[HTB Sherlock: Brutus](https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/Brutus/Brutus.md)**  
+  DFIR — analyzed auth.log and wtmp data to investigate an SSH brute-force attack and scope the compromise.
 
 - **Web Application Penetration Testing Lab (Forage)**  
   Simulated attacks on vulnerable web applications, discovered and reported multiple security flaws.  
   [Certificate](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_NQFmAcsNRkeZdfGNh_1747822311724_completion_certificate.pdf)
 
+*Full writeup index → [htb-writeups](https://github.com/Djibrilgathoni/htb-writeups)*
+
 ### Professional Experience
 **IT Intern**  
 Kenya Tea Packers Ltd (KETEPA), Kericho  
 May – August 2024  
-- Delivered end-to-end IT support to 50+ users, resolving hardware, software, network, and account issues with a 92% first-contact resolution rate (average closure within 4 hours).  
-- Managed Active Directory for 200+ users: onboarding/offboarding, group policies, access controls, and password resets.  
-- Maintained corporate LAN, Wi-Fi, switches, and IP configurations, achieving 99.9% network uptime.  
-- Executed patch management and endpoint protection scans on 100+ devices, ensuring 100% compliance with security policies.  
+- Delivered end-to-end IT support to 30+ users, resolving hardware, software, network, and account issues with a 92% first-contact resolution rate (average closure within 4 hours).  
+- Contributed to a 25% reduction in system downtime through proactive monitoring and faster incident response.  
+- Managed Active Directory accounts: onboarding/offboarding, group policies, access controls, and password resets.  
+- Maintained corporate LAN, Wi-Fi, switches, and IP configurations.  
+- Executed patch management and endpoint protection scans, reducing security risk across the network.  
 - Supported ERP and database monitoring, preventing operational disruptions.
 
 ### Education
-South Eastern Kenya University, Kitui, Kenya 
+South Eastern Kenya University, Kitui, Kenya  
 Bachelor of Business Information Technology (BBIT)  
 September 2021 – October 2025 (Graduated)
 
 ### Certifications
 - Certified Ethical Hacker (CEH) – August 2025  
-- Cisco Ethical Hacking Certification – Cyber Shujaa Program, USIU-Africa (May – August 2025)
+- Cisco Cybersecurity Defense Path Certification
 
 ### Leadership & Extracurricular Activities
 **Vice Chair & Secretary, Christian Union**  
@@ -65,4 +80,4 @@ South Eastern Kenya University
 - **LinkedIn:** [linkedin.com/in/djibrilgathoni](https://www.linkedin.com/in/djibrilgathoni/)  
 - **Portfolio:** [djibrilgathoni.github.io](https://djibrilgathoni.github.io/)
 
-I'm excited to bring my technical skills and proactive mindset to an innovative IT or cybersecurity team. Feel free to reach out for opportunities in IT support, system administration, networking, or cybersecurity
+I'm excited to bring my technical skills and proactive mindset to an innovative SOC or cybersecurity team. Feel free to reach out for opportunities in SOC analysis, incident response, or IT support.
