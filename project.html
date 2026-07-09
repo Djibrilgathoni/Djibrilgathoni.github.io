@@ -104,7 +104,7 @@
       <span class="tag">IOC Extraction</span>
     </div>
     <div class="project-links">
-      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+      <a href="https://github.com/Djibrilgathoni/lumma-stealer-network-analysis/blob/main/report.md" target="_blank">Read the writeup →</a>
       <a href="https://github.com/Djibrilgathoni/lumma-stealer-network-analysis" target="_blank">View repo →</a>
     </div>
   </div>
@@ -122,7 +122,7 @@
       <span class="tag">Host Isolation</span>
     </div>
     <div class="project-links">
-      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+      <a href="https://github.com/Djibrilgathoni/netsupport-rat-network-analysis/blob/main/report.md" target="_blank">Read the writeup →</a>
       <a href="https://github.com/Djibrilgathoni/netsupport-rat-network-analysis" target="_blank">View repo →</a>
     </div>
   </div>
@@ -133,23 +133,6 @@
 <div class="project-grid">
 
   <div class="project-card">
-    <div class="project-image">
-      <!-- [SCREENSHOT: reactor-root-flag.png — root flag captured on Reactor] -->
-      <!-- <img src="assets/images/reactor-root-flag.png" alt="HTB Reactor root flag"> -->
-    </div>
-    <h3>Reactor — Full Exploitation Chain</h3>
-    <p>A multi-stage compromise: exploited a Next.js RCE vulnerability (CVE-2025-55182) for initial access, dumped credentials from a SQLite database, cracked the hashes with Hashcat, moved laterally over SSH, then escalated privileges through the Node.js Inspector.</p>
-    <div class="tags">
-      <span class="tag">Web Exploitation</span>
-      <span class="tag">Hashcat</span>
-      <span class="tag">Privilege Escalation</span>
-    </div>
-    <div class="project-links">
-      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
-    </div>
-  </div>
-
-  <div class="project-card">
     <h3>Sherlock: Vantage — Cloud Forensics</h3>
     <p>Investigated an OpenStack breach using tshark-based packet analysis to reconstruct the attack timeline and identify the compromised cloud resource.</p>
     <div class="tags">
@@ -157,7 +140,7 @@
       <span class="tag">tshark</span>
     </div>
     <div class="project-links">
-      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+      <a href="https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/Vantage/Vantage.md" target="_blank">Read the writeup →</a>
     </div>
   </div>
 
@@ -169,19 +152,31 @@
       <span class="tag">Log Analysis</span>
     </div>
     <div class="project-links">
-      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+      <a href="https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/Brutus/Brutus.md" target="_blank">Read the writeup →</a>
     </div>
   </div>
 
   <div class="project-card">
-    <h3>ICS Shush Protocol — Modbus/TCP Forensics</h3>
-    <p>Analyzed Modbus/TCP traffic in an industrial control systems context, reverse-engineering a custom protocol to identify malicious commands sent to the simulated ICS environment.</p>
+    <h3>Sherlock: MangoBleed — Endpoint Forensics</h3>
+    <p>Triaged a compromised MongoDB server from a UAC-collected artifact set, identifying the initial-access CVE, attacker persistence, privilege escalation, and lateral movement, then summarized findings as an incident assessment.</p>
     <div class="tags">
-      <span class="tag">ICS/SCADA</span>
-      <span class="tag">Protocol Analysis</span>
+      <span class="tag">DFIR</span>
+      <span class="tag">Endpoint Forensics</span>
     </div>
     <div class="project-links">
-      <a href="https://github.com/Djibrilgathoni/htb-writeups" target="_blank">Read the writeup →</a>
+      <a href="https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/MangoBleed/MangoBleed.md" target="_blank">Read the writeup →</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>Sherlock: Telly — Network Forensics</h3>
+    <p>Analyzed network telemetry from a compromised backup server after a DLP alert, reconstructing a Telnet-based exploit and exfiltration path via Wireshark and SQLite artifact analysis.</p>
+    <div class="tags">
+      <span class="tag">Wireshark</span>
+      <span class="tag">Network Forensics</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/Djibrilgathoni/htb-writeups/blob/main/Sherlocks/Telly/Telly.md" target="_blank">Read the writeup →</a>
     </div>
   </div>
 
@@ -194,23 +189,6 @@
     </div>
     <div class="project-links">
       <a href="https://labs.hackthebox.com/achievement/machine/2442977/461" target="_blank">View Fawn Achievement →</a>
-    </div>
-  </div>
-
-</div>
-
-<div class="section-label">Tools I Build</div>
-<div class="project-grid">
-
-  <div class="project-card">
-    <h3>File Integrity Checker</h3>
-    <p>A CLI tool built in Python to detect log file tampering using SHA-256 cryptographic hashing. Supports init, check, update, and status commands.</p>
-    <div class="tags">
-      <span class="tag">Python</span>
-      <span class="tag">SHA-256</span>
-    </div>
-    <div class="project-links">
-      <a href="https://github.com/Djibrilgathoni/file-integrity-checker" target="_blank">View on GitHub →</a>
     </div>
   </div>
 
@@ -233,3 +211,6 @@
   </div>
 
 </div>
+  </main>
+</body>
+</html>
